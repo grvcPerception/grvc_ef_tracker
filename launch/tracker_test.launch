@@ -1,0 +1,15 @@
+<launch>
+
+<node name="davis_ros_driver" pkg="davis_ros_driver" type="davis_ros_driver" />
+
+<arg name="feature_topic" default=''/>
+  <node name="ef_tracker" pkg="grvc_ef_tracker" type="ef_tracker_node"  output="screen">
+    <remap from="eventFeatureTopic" to="$(arg feature_topic)" />
+    <param name="windowSearchSize" value="10"/>
+    <param name="bufferSize" value="200"/>
+    <param name="minNeighboursFilter" value="1"/>
+    <param name="neighboursFilterSize" value="3"/>
+    <remap from="trackerPublisher" to="/ef_tracker/trackerList"/>
+  </node>
+
+</launch>
