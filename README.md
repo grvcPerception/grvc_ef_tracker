@@ -1,5 +1,5 @@
 # grvc_ef_tracker 
-This repository includes the ROS implemenatation of the the event-based feature tracking algorithm described in the paper "**Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS**".
+This repository includes the ROS implemenatation of the event-based feature tracking algorithm described in the paper "**Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS**".
 
 ## Publication
 In case you use this code, please cite the following [publication](): 
@@ -7,9 +7,10 @@ In case you use this code, please cite the following [publication]():
 Juan Pablo Rodríguez-Gómez, Augusto Gómez Eguíluz, Jose Ramiro Martínez De-Dios and Anibal Ollero. "**Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS.**" IEEE International Conference on Robotics and Automation (ICRA), 2020. 
 
     @inproceedings{rodriguez2020asynchronous,
-        title={Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS},
+        title={Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in {UAS}},
         author={Rodr\'{i}guez-G\'{o}mez, Juan Pablo and G\'{o}mez Egu\'{i}luz, Augusto and Martinez De-Dios, Jose Ramiro and Ollero, Anibal},
-        booktitle={20120 IEEE International Conference on Robotics and Automation (ICRA)},
+        booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
+        pages={8518--8523},
         year={2020},
         organization={IEEE}}
 
