@@ -2,17 +2,19 @@
 This repository includes the ROS implemenatation of the event-based feature tracking algorithm described in the paper "**Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS**".
 
 ## Publication
-In case you use this code, please cite the following [publication](): 
+In case you use this code, please cite the following [publication](https://ieeexplore.ieee.org/document/9197341): 
 
 Juan Pablo Rodríguez-Gómez, Augusto Gómez Eguíluz, Jose Ramiro Martínez De-Dios and Anibal Ollero. "**Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in UAS.**" IEEE International Conference on Robotics and Automation (ICRA), 2020. 
 
     @inproceedings{rodriguez2020asynchronous,
-        title={Asynchronous Event-Based Clustering and Tracking for Intrusion Monitoring in {UAS}},
-        author={Rodr\'{i}guez-G\'{o}mez, Juan Pablo and G\'{o}mez Egu\'{i}luz, Augusto and Martinez De-Dios, Jose Ramiro and Ollero, Anibal},
-        booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)},
-        pages={8518--8523},
+        author={J. P. {Rodríguez-Gomez} and A. G. {Eguíluz} and J. R. {Martínez-de Dios} and A. {Ollero}},
+        booktitle={2020 IEEE International Conference on Robotics and Automation (ICRA)}, 
+        title={Asynchronous event-based clustering and tracking for intrusion monitoring in UAS}, 
         year={2020},
-        organization={IEEE}}
+        volume={},
+        number={},
+        pages={8518-8524},
+        doi={10.1109/ICRA40945.2020.9197341}}
 
 # Requirements
 * [Eigen 3](https://eigen.tuxfamily.org/dox/)
